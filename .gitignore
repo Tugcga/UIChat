@@ -1,0 +1,11 @@
+.vs
+Library
+Logs
+obj
+Packages
+Temp
+ProjectSettings
+*.sln
+*.user
+*.csproj
+*.unitypackage
