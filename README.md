@@ -34,4 +34,4 @@ void ComeMessageString(string message)
 
 Call the first function `SendMessageString` to send message from input string to the server (you should manually implement sending to the server). Call the second function `ComeMessageString` when the new message come from the server (then it appears on the chat list automatically). Also you can add some filters inside the function `SendMessageString` before sending string to the server: cutout some symbols, trim spaces and so on.
 
-Addon contains simple script `ChatInputController`. This script should be added to any object on the scene (for example to the camera). When the user press `Enter`, then this script activate the chat input line. Press `Enter` again, and the input line will be deactivated.
+Addon contains simple script `ChatInputController`. This script should be added to any object on the scene (for example to the camera). When the user press `Enter`, then this script activate the chat input line. Press `Enter` again or `Esc` button, and the input line will be deactivated.
